@@ -47,12 +47,12 @@ const HomeCard = () =>{
                 <div className='flex items-center justify-center'>
 
                     {/* Cards */}
-                <div className="w-[89%] sm:w-[80%] lg:w-[95%] xl:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid
-                 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[3rem] justify-around">
+                <div className="w-[99%] sm:w-[80%] lg:w-[95%] xl:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid
+                 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] sm:gap-[3rem] justify-around">
 
                     {/* Card 1 */}
 
-                    <div className="w-[161px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
+                    <div className="w-[150px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
                         {/* image */}
                         <Image src={cardImage1} alt='Moon Bread' width={1000} height={1000} className='
                         w-full h-[159px] lg:h-[80%]' />
@@ -66,7 +66,7 @@ const HomeCard = () =>{
 
                      {/* Card 2 */}
 
-                    <div className="w-[161px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
+                    <div className="w-[150px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
                         {/* image */}
                         <Image src={cardImage2} alt='Moon Bread' width={1000} height={1000} className='
                         w-full h-[159px] lg:h-[80%]' />
@@ -80,7 +80,7 @@ const HomeCard = () =>{
 
                     {/* Card 3 */}
 
-                    <div className="w-[161px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
+                    <div className="w-[150px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
                         {/* image */}
                         <Image src={cardImage3} alt='Moon Bread' width={1000} height={1000} className='
                         w-full h-[159px] lg:h-[80%]' />
@@ -94,7 +94,7 @@ const HomeCard = () =>{
 
                     {/* Card 4 */}
 
-                    <div className="w-[161px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
+                    <div className="w-[150px] h-[200px] lg:w-[220px] lg:h-[280px] flex flex-col justify-between">
                         {/* image */}
                         <Image src={cardImage4} alt='Moon Bread' width={1000} height={1000} className='
                         w-full h-[159px] lg:h-[80%]' />
