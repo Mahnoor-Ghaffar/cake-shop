@@ -33,11 +33,11 @@ const CardList = () => {
         <div className='w-full bg-[var(--pink-bg)] lg:w-[75%] flex flex-col items-center'>
 
                 {/* Cards */}
-                    <div className="grid grid-cols-2 justify-center w-[88%]">
+                    <div className="grid grid-cols-2 justify-center w-[99%] sm:w-[88%]">
 
                     {/* Card 1 */}
 
-                    <div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+                    <div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
                     md:w-[300px] md:h-[400px]">
                         {/* image */}
                         <Image src={CardImage1} alt='Moon Bread' width={1000} height={1000} className='
@@ -62,7 +62,7 @@ const CardList = () => {
 
                      {/* Card 2 */}
 
-                     <div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+                     <div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
                     md:w-[300px] md:h-[400px]">
                         {/* image */}
                         <Image src={CardImage2} alt='Moon Bread' width={1000} height={1000} className='
@@ -85,7 +85,7 @@ const CardList = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+                    <div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
                     md:w-[300px] md:h-[400px]">
 
                         {/* image */}
@@ -114,9 +114,9 @@ const CardList = () => {
 
 
                  {/* Cards row 2 */}
-<div className="grid grid-cols-2 justify-center w-[88%]">
+<div className="grid grid-cols-2 justify-center w-[93%] md:w-[88%]">
 {/* Card 1 */}
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 {/* image */}
 <Image src={CardImage4} alt='Moon Bread' width={1000} height={1000} className='
@@ -141,7 +141,7 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
 
 {/* Card 2 */}
 
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 {/* image */}
 <Image src={CardImage5} alt='Moon Bread' width={1000} height={1000} className='
@@ -164,7 +164,7 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
 </div>
 
 {/* Card 3 */}
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 
 {/* image */}
@@ -192,9 +192,9 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
 
 
 {/* Cards row 3 */}
-<div className="grid grid-cols-2 justify-center w-[88%] mb-20">
+<div className="grid grid-cols-2 justify-center w-[93%] md:w-[88%] mb-20">
 {/* Card 1 */}
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 {/* image */}
 <Image src={CardImage7} alt='Moon Bread' width={1000} height={1000} className='
@@ -219,7 +219,7 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
 
 {/* Card 2 */}
 
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 {/* image */}
 <Image src={CardImage8} alt='Moon Bread' width={1000} height={1000} className='
@@ -242,7 +242,7 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
 </div>
 
 {/* Card 3 */}
-<div className="w-[161px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
+<div className="w-[157px] h-[250px] rounded-2xl flex flex-col justify-between mt-[7rem]
 md:w-[300px] md:h-[400px]">
 
 {/* image */}
@@ -272,4 +272,4 @@ ease-in-out w-[110px] h-[30px] sm:w-[170px] md:w-[200px] md:h-[40px]'>
   )
 }
 
-export default CardList
+export default CardList;
