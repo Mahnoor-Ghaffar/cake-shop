@@ -40,11 +40,11 @@ const Nav = ({openNav}:Props) => {
               </li>
 
               <li className='text-[20px] hover:text-[var(--font-color)] text-[var(--font-black)] hover:underline hover:underline-offset-8'>
-                <Link href="/Products">Shop</Link>
+                <Link href="/Order">Order</Link>
               </li>
 
               <li className='text-[20px] hover:text-[var(--font-color)] text-[var(--font-black)] hover:underline hover:underline-offset-8'>
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
 

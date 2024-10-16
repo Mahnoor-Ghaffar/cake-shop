@@ -1,9 +1,13 @@
+
+import OrderForm from '@/app/component/OrderForm/OrderForm';
 import React from 'react'
 
-const page = () => {
+const OrderF = () => {
   return (
-    <div>page</div>
+    <div>
+      <OrderForm />
+    </div>
   )
 }
 
-export default page;
+export default OrderF;
